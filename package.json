@@ -1,0 +1,20 @@
+{
+  "name": "10_project",
+  "version": "1.0.0",
+  "description": "A quiz webapp made with react and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/express/index"
+  },
+  "author": "James Lounds",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
