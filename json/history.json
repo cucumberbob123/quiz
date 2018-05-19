@@ -1,1 +1,29 @@
-{"foo": "bar"}
+[{
+        "q": {
+            "correct": "a",
+            "incorrect": ["foo", "bar", "baz"]
+        }
+    },
+
+    {
+        "q": [{
+                "answer": "foo",
+                "en-US": "foo",
+                "fr-FR": "le foo",
+                "correct": true
+            },
+            {
+                "answer": "bar",
+                "correct": false
+            },
+            {
+                "answer": "boogie",
+                "correct": false
+            },
+            {
+                "answer": "baz",
+                "correct": false
+            }
+        ]
+    }
+]
